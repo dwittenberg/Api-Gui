@@ -1,0 +1,10 @@
+<div class="libary">
+  <div *ngFor="let album of libary">
+    <div class="album">
+      <p class="albumName">{{album.name}}</p>
+      <div *ngFor="let track of album.title">
+        <p *ngIf="track.name" class="trackName">- {{track.name}}</p>
+      </div>
+    </div>
+  </div>
+</div>

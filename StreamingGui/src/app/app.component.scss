@@ -1,0 +1,23 @@
+.libary {
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.album {
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.albumName {    
+    text-align: center;
+    font-weight: bold;
+}
+
+.trackName {
+    font-size: 0.8em;
+    text-indent: 20px;
+}
